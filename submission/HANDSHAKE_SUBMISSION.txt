@@ -1,0 +1,21 @@
+PROJECT TITLE
+INTERVIEW//ZERO — Mission Countdown: Job Interview Lock Screen
+
+PROJECT DESCRIPTION
+INTERVIEW//ZERO is a cross-platform interview-preparation countdown experience built around a premium futuristic mountain-summit lock-screen design. It helps turn a job-interview deadline into a sequence of practical T-minus milestones. The companion app displays a live days/hours/minutes/seconds countdown, tracks completed preparation tasks, calculates progress and offers deadline-aware motivation. Users can export and share a high-resolution phone wallpaper snapshot. Native source components demonstrate an Android Live Wallpaper countdown and scheduled local reminders, plus an iOS Lock Screen widget and recurring local notifications. The responsive web/PWA companion provides the same countdown and milestone workflow. The project is designed to work without a paid API or backend; notification delivery and widget refresh are subject to each mobile operating system's permissions and scheduling policies.
+
+PROJECT COVER IMAGE
+Upload assets/interview_zero_lock_screen_1170x2532.png.
+
+PROJECT URL
+Paste the real public HTTPS URL after deploying the web companion. Native Android/iOS source is included in the project ZIP; the web URL does not itself install the native wallpaper/widget.
+
+GEMINI MISSION WORKFLOW — COMPLETE THESE STEPS IN GEMINI
+1. Planning prompt:
+“I am preparing for a job interview on December 31, 2026. Ask me three questions about target roles, available preparation time, and interview format. Build a realistic backward plan with T-30, T-14, T-7, T-3 and T-1 milestones. Keep labels concise.”
+2. Design prompt:
+“Create a premium futuristic vertical phone lock-screen design inspired by a lone hiker reaching a glowing mountain summit at sunrise. Use midnight navy, indigo, violet and cyan. Include a large countdown, progress bar and short milestones. Leave clean space at the top for system clock and icons.”
+3. Iteration prompt:
+“Review the generated lock screen for glance readability, safe space, contrast, short milestone labels and clear progression to the deadline. Refine it for a real phone screen.”
+4. Reminder prompt:
+“Help me create daily interview preparation reminders at 8:00 AM, 1:00 PM and 8:00 PM until December 31, 2026, and remind me when each milestone is due.”

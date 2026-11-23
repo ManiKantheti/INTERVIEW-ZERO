@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#080d20"><meta name="description" content="INTERVIEW//ZERO countdown and interview preparation companion">
+<title>INTERVIEW//ZERO</title><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css"></head>
+<body><header><b>INTERVIEW<span>//ZERO</span></b><small>MISSION ACTIVE</small></header>
+<main><section class="hero"><p>YOUR DEADLINE. YOUR DESIGN.</p><h1>Turn pressure into <em>progress.</em></h1><p>One focused step closer to your next opportunity.</p></section>
+<div class="grid"><section class="phone"><div class="wall">
+<div class="status"><span id="today">TODAY</span><span>● ● ● ◈ 100%</span></div><div class="clock" id="clock">--:--</div><div class="date" id="dateLabel"></div><div class="spacer"></div>
+<div class="goal" id="wallGoal">JOB INTERVIEW</div><div class="sub">COUNTDOWN TO YOUR NEXT OPPORTUNITY</div><div class="target" id="targetLabel"></div>
+<div class="timer"><div><b id="days">000</b><small>DAYS</small></div><div><b id="hours">00</b><small>HOURS</small></div><div><b id="minutes">00</b><small>MINUTES</small></div><div><b id="seconds">00</b><small>SECONDS</small></div></div>
+<div class="phead"><span>PREPARATION PROGRESS</span><b id="pct">0%</b></div><div class="track"><i id="bar"></i></div><h3>T-MINUS MILESTONES</h3><div id="wallMilestones"></div><div class="slogan">PREPARE · PRACTICE · PERFORM</div></div><p class="hint">LIVE APP PREVIEW · WALLPAPER EXPORT IS A SNAPSHOT</p></section>
+<section class="panels">
+<article><small>MISSION COUNTDOWN</small><h2 id="goalTitle">Job Interview</h2><p id="remainingText"></p><p class="motivation" id="motivation"></p></article>
+<article><small>PREPARATION MILESTONES</small><h2>Work backward. Win forward.</h2><div id="milestones"></div><form id="addForm"><input id="newMilestone" placeholder="Add a milestone" maxlength="48" required><input id="newDate" type="date" required><button>Add</button></form></article>
+<article><small>MISSION SETTINGS</small><form id="settings"><label>Goal<input id="goalInput" value="Job Interview" maxlength="42"></label><div class="two"><label>Deadline<input id="deadlineInput" type="date" value="2026-12-31"></label><label>Time<input id="timeInput" type="time" value="09:00"></label></div><button>Save deadline</button></form></article>
+<article><small>FREQUENT REMINDERS</small><p>Choose the reminder schedule. Browser notifications require permission and the app to be installed/open; native builds use OS notification scheduling.</p><label class="check"><input type="checkbox" id="reminders" checked> Enable reminders</label><div class="two"><label>Morning<input type="time" id="morning" value="08:00"></label><label>Afternoon<input type="time" id="afternoon" value="13:00"></label></div><label>Evening<input type="time" id="evening" value="20:00"></label><button type="button" id="enableNotifications">Allow notifications</button><button type="button" id="schedule">Schedule browser reminders</button><p id="notifyStatus" class="fine"></p></article>
+<article><small>WALLPAPER & SHARING</small><p>Export a fresh lock-screen image with the current countdown and checklist, then save/share it to your phone.</p><button type="button" id="download">Download 1170 × 2532 wallpaper</button><button type="button" id="share">Share mission</button><p class="fine">A PNG wallpaper is a snapshot. Use the Android Live Wallpaper or iPhone Lock Screen widget source included in this ZIP for dynamic display.</p></article>
+</section></div></main><div id="toast"></div><script src="app.js"></script></body></html>

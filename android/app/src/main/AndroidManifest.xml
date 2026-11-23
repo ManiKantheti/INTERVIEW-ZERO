@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+ <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+ <application android:theme="@android:style/Theme.Material.Light.NoActionBar" android:label="INTERVIEW//ZERO" android:allowBackup="true">
+  <activity android:name=".MainActivity" android:exported="true"><intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter></activity>
+  <service android:name=".CountdownWallpaperService" android:label="INTERVIEW//ZERO Live Countdown" android:permission="android.permission.BIND_WALLPAPER" android:exported="true"><intent-filter><action android:name="android.service.wallpaper.WallpaperService"/></intent-filter><meta-data android:name="android.service.wallpaper" android:resource="@xml/wallpaper"/></service>
+  <receiver android:name=".ReminderReceiver" android:exported="false"/>
+ </application>
+</manifest>

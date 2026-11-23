@@ -1,0 +1,9 @@
+{
+  "name": "INTERVIEW//ZERO",
+  "short_name": "Interview Zero",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#080d20",
+  "theme_color": "#080d20",
+  "description": "Interview countdown and preparation companion"
+}
